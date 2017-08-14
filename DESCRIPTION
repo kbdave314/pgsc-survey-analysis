@@ -1,0 +1,25 @@
+Package: pgscsurvey2014
+Version: 0.0
+Date: 2015-02-12
+Title: MIT PGSC 2014 Survey Analysis
+Author: Kiaran Dave, John Hardin and Nancy Aggarwal
+Maintainer: Kiaran Dave <physics-gsc-acl@mit.edu>
+Imports:
+    logging,
+    roxygen2,
+    Kendall,
+    knitr
+Description: This package contains functions required to analyze the data of
+    the Spring 2014 MIT Physics Graduate Student Council Survey.
+License: file LICENSE
+Collate:
+    'generic.R'
+    'ordinal.R'
+    'cdata.R'
+    'categorical.R'
+    'analysis.R'
+    'types.R'
+    'utilities.R'
+    'syntax.R'
+    'main.R'
+    ''
